@@ -18,6 +18,7 @@ ul {
 
 .status {
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .square {
@@ -35,7 +36,9 @@ ul {
   text-align: center;
   width: 34px;
 }
-
+.square[disabled] {
+  color: #999;
+}
 .square:focus {
   outline: none;
 }
@@ -47,6 +50,21 @@ ul {
 .game {
   display: flex;
   flex-direction: row;
+}
+
+.new-game {
+  margin-top: 4px;
+  padding: 4px;
+  width: 100px;
+  background-color: #111;
+  color: #ccc;
+  border: 1px solid #ccc;
+}
+.new-game:hover {
+  background-color: #333;
+}
+.new-game:active {
+  background-color: #111;
 }
 
 .game-info {
