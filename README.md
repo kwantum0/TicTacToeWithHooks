@@ -1,2 +1,0 @@
-# TicTacToeWithHooks
-Created with CodeSandbox
